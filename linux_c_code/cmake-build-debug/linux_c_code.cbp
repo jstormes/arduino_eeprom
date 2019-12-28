@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jstormes/Electorics_Projects/arduino_eeprom/linux_c_code/hardware.c">
+			<Option target="linux_c_code"/>
+		</Unit>
+		<Unit filename="/home/jstormes/Electorics_Projects/arduino_eeprom/linux_c_code/hardware.h">
+			<Option target="linux_c_code"/>
+		</Unit>
 		<Unit filename="/home/jstormes/Electorics_Projects/arduino_eeprom/linux_c_code/main.c">
 			<Option target="linux_c_code"/>
 		</Unit>

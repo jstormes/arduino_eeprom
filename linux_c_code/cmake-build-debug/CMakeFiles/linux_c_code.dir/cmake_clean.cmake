@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/linux_c_code.dir/hardware.c.o"
   "CMakeFiles/linux_c_code.dir/main.c.o"
   "linux_c_code"
   "linux_c_code.pdb"

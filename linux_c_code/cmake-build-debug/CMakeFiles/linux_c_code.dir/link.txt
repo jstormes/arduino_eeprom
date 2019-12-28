@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/linux_c_code.dir/main.c.o  -o linux_c_code 
+/usr/bin/cc -g   CMakeFiles/linux_c_code.dir/main.c.o CMakeFiles/linux_c_code.dir/hardware.c.o  -o linux_c_code 

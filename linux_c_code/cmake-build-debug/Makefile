@@ -123,6 +123,33 @@ linux_c_code/fast:
 	$(MAKE) -f CMakeFiles/linux_c_code.dir/build.make CMakeFiles/linux_c_code.dir/build
 .PHONY : linux_c_code/fast
 
+hardware.o: hardware.c.o
+
+.PHONY : hardware.o
+
+# target to build an object file
+hardware.c.o:
+	$(MAKE) -f CMakeFiles/linux_c_code.dir/build.make CMakeFiles/linux_c_code.dir/hardware.c.o
+.PHONY : hardware.c.o
+
+hardware.i: hardware.c.i
+
+.PHONY : hardware.i
+
+# target to preprocess a source file
+hardware.c.i:
+	$(MAKE) -f CMakeFiles/linux_c_code.dir/build.make CMakeFiles/linux_c_code.dir/hardware.c.i
+.PHONY : hardware.c.i
+
+hardware.s: hardware.c.s
+
+.PHONY : hardware.s
+
+# target to generate assembly for a file
+hardware.c.s:
+	$(MAKE) -f CMakeFiles/linux_c_code.dir/build.make CMakeFiles/linux_c_code.dir/hardware.c.s
+.PHONY : hardware.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... linux_c_code"
 	@echo "... edit_cache"
+	@echo "... hardware.o"
+	@echo "... hardware.i"
+	@echo "... hardware.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

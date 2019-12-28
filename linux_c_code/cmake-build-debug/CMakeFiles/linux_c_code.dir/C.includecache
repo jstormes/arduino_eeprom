@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jstormes/Electorics_Projects/arduino_eeprom/linux_c_code/hardware.h
+errno.h
+-
+fcntl.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+termios.h
+-
+unistd.h
+-
+
+/home/jstormes/Electorics_Projects/arduino_eeprom/linux_c_code/main.c
+stdio.h
+-
+hardware.h
+/home/jstormes/Electorics_Projects/arduino_eeprom/linux_c_code/hardware.h
+

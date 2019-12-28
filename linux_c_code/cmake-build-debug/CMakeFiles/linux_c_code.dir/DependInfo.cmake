@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/jstormes/Electorics_Projects/arduino_eeprom/linux_c_code/hardware.c" "/home/jstormes/Electorics_Projects/arduino_eeprom/linux_c_code/cmake-build-debug/CMakeFiles/linux_c_code.dir/hardware.c.o"
   "/home/jstormes/Electorics_Projects/arduino_eeprom/linux_c_code/main.c" "/home/jstormes/Electorics_Projects/arduino_eeprom/linux_c_code/cmake-build-debug/CMakeFiles/linux_c_code.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
